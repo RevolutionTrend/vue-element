@@ -27,3 +27,13 @@
   }
 }
 </style>
+
+<script>
+import {Container} from 'element-ui';
+Vue.use(Container);
+
+export default {
+  name: 'app'
+}
+</script>
+
