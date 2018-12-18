@@ -42,6 +42,6 @@ app.get('/api/speed_info', function (req, res) {
     res.send(speed).end();
 });
 
-app.listen('8008', function () {
+app.listen('8008', '192.168.36.114', function () {
     console.log('runing on port 8008.')
 });

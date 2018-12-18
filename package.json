@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "watch": "vue-cli-service build --watch",
-    "page": "vue-cli-service serve --open --host 192.168.36.141"
+    "page": "vue-cli-service serve --open --host 192.168.36.114",
+    "remote": "vue-cli-service build --dest E:/root/dist --watch"
   },
   "dependencies": {
     "element-ui": "^2.4.11",
